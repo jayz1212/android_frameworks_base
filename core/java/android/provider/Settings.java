@@ -4800,6 +4800,12 @@ public final class Settings {
          * @hide
          */
         public static final String MULTI_AUDIO_FOCUS_ENABLED = "multi_audio_focus_enabled";
+        
+        /**
+         * Whether to show charging animation
+         * @hide
+         */
+        public static final String CHARGING_ANIMATION = "charging_animation";
 
         /**
          * IMPORTANT: If you add a new public settings you also have to add it to

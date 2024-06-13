@@ -919,7 +919,7 @@ public class ApplicationPackageManager extends PackageManager {
         if (Arrays.asList(featuresPixelOthers).contains(name)) return true;
         return mHasSystemFeatureCache.query(new HasSystemFeatureQuery(name, version));
     }
-    }
+    
 
     /** @hide */
     public void disableHasSystemFeatureCache() {

@@ -62,6 +62,7 @@ public class PixelPropsUtils {
             "com.google.android.apps.emojiwallpaper",
             "com.google.android.apps.privacy.wildlife",
             "com.google.android.apps.wallpaper",
+            "com.globe.gcash.android",
             "com.google.android.apps.wallpaper.pixel",
             "com.google.android.gms",
             "com.google.android.googlequicksearchbox",

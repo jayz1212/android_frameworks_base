@@ -389,11 +389,12 @@ public class PixelPropsUtils {
 
     private static void spoofBuildGms() {
         // Alter model name and fingerprint to avoid hardware attestation enforcement
-        setBuildField("FINGERPRINT", "google/marlin/marlin:7.1.2/NJH47F/4146041:user/release-keys");
-        setBuildField("PRODUCT", "marlin");
-        setBuildField("DEVICE", "marlin");
-        setBuildField("MODEL", "Pixel XL");
+        setBuildField("FINGERPRINT", "google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+        setBuildField("PRODUCT", "sailfish");
+        setBuildField("DEVICE", "sailfish");
+        setBuildField("MODEL", "Pixel");
         setVersionField("DEVICE_INITIAL_SDK_INT", Build.VERSION_CODES.N_MR1);
+
     }
 
     private static boolean isCallerSafetyNet() {
